@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.driver-item-text span {
+    color: #d4d4f6;
+}
+
+.drivers-items ul {
+    list-style: none;
+    height: 100%;
+    overflow-y: scroll;
+    padding: 0;
+}
+
+.drivers-items{
+    height: 100vh;
+    justify-content: center;
+}
+
+.driver-item {
+    display: flex;
+    padding: 15px 28px;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.driver-item img {
+    /* width: 150px;
+    height: 100px;
+    border-radius: 25px; */
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border: 1px solid #777af9;
+}
+
+.driver-item-info {
+    display: flex;
+    align-items: center;
+}
+
+.driver-item-text {
+    margin-left: 20px;
+}
+
+.driver-status {
+    display: flex;
+    align-items: start;
+}
+
+.driver-status-item {
+    border-radius: 50%;
+}
+
+.drivers-items li:hover  {
+    background-color: #26262a;
+}
+
+.driver-item-text {
+    margin: 20px 0px;
+}
+.driver-item-text span {
+    white-space: nowrap;
+}
+
+/* right panel */
+.driver-details h1 {
+    margin-bottom: 20px;
+}
+
+.driver-control-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.driver-control-buttons button {
+    border-radius: 6px;
+    height: 40px;
+    width: 100%;
+    font-weight: 600;
+    color: #fff;
+    border: none !important;
+    transition: all 0.3s ease-in-out;
+}
+
+/* .driver-img__drivers {
+    height: 10rem;
+} */
+
+
+.right-panel-img img {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border: 1px solid #777af9;
+}
+/* .right-panel .driver-img img {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border: 1px solid #777af9;
+} */
+
+.edit-driver {
+    background: #777af9;
+}
+.remove-driver {
+    background-color: red;
+}
+.edit-driver:hover {
+    background: #5456e3 !important;
+}
+.remove-driver:hover {
+    background: rgb(182, 11, 11) !important;
+}
+
+.info-item-address {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.info-item-address h6{
+    text-transform: uppercase;
+    margin-bottom: 0;
+    /* color: #c6c7f4; */
+    letter-spacing: .6px;
+}
+
+.info-item-address .address-box {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: #dbdbf9;
+}

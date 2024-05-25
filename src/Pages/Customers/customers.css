@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+/* left panel */
+.driver-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    border: 1px solid #777af9;
+}
+
+
+.customer-control-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.customer-control-buttons button {
+    border-radius: 6px;
+    height: 40px;
+    width: 100%;
+    font-weight: 600;
+    color: #fff;
+    border: none !important;
+    transition: all 0.3s ease-in-out;
+}
+
+/* .customer-img-left img {
+    height: 50px;
+    width: 70px;
+} */
+
+
+
+

@@ -1,0 +1,13 @@
+.booking-buttons .comfort-select__control{
+    height: 100% !important;
+}
+
+.bookings-table-actions {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 10px;
+}
+
+.bookings-table-actions button {
+    font-size: 12px;
+}

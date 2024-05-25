@@ -1,0 +1,946 @@
+{
+    "cars":[
+        {
+            "id": 1,
+            "photo": "./images/carsImages/audi.png",
+            "license_plate": "ABC 1234",
+            "brand": "Toyota",
+            "model": "Corolla",
+            "vin": "1HGCM82633A004352",
+            "year": 2019,
+            "fuel_type": "gasoline",
+            "body_style": "sedan",
+            "transmission": "automatic",
+            "fuel_consumption": {
+                "city": 9.5,
+                "highway": 6.5,
+                "average": 8.0
+            },
+            "mileage": 50000,
+            "engine_capacity": 1.8,
+            "car_status": "available"
+        },
+        {
+            "id": 2,
+            "photo": "./images/carsImages/audi.png",
+            "license_plate": "XYZ 5678",
+            "brand": "Ford",
+            "model": "Focus",
+            "vin": "1GNEK13Z82R129299",
+            "year": 2017,
+            "fuel_type": "diesel",
+            "body_style": "station wagon",
+            "transmission": "manual",
+            "fuel_consumption": {
+                "city": 6.0,
+                "highway": 4.5,
+                "average": 5.0
+            },
+            "mileage": 70000,
+            "engine_capacity": 2.0,
+            "car_status": "available"
+        },
+        {
+            "id": 3,
+            "photo": "./images/carsImages/audi.png",
+            "license_plate": "DEF 9876",
+            "brand": "Volkswagen",
+            "model": "Golf",
+            "vin": "1FMEU7DE3AUA46858",
+            "year": 2018,
+            "fuel_type": "gasoline",
+            "body_style": "hatchback",
+            "transmission": "manual",
+            "fuel_consumption": {
+                "city": 7.5,
+                "highway": 5.5,
+                "average": 6.5
+            },
+            "mileage": 60000,
+            "engine_capacity": 1.6,
+            "car_status": "unavailable"
+        },
+        {
+            "id": 4,
+            "photo": "./images/carsImages/audi.png",
+            "license_plate": "GHI 2468",
+            "brand": "BMW",
+            "model": "3 Series",
+            "vin": "WBA3A9C58FK270989",
+            "year": 2020,
+            "fuel_type": "gasoline",
+            "body_style": "sedan",
+            "transmission": "automatic",
+            "fuel_consumption": {
+                "city": 10.0,
+                "highway": 7.0,
+                "average": 8.5
+            },
+            "mileage": 30000,
+            "engine_capacity": 2.0,
+            "car_status": "available"
+        },
+        {
+            "id": 5,
+            "photo": "./images/carsImages/audi.png",
+            "license_plate": "JKL 1357",
+            "brand": "Mercedes-Benz",
+            "model": "C-Class",
+            "vin": "WDDGF4HB0CR200400",
+            "year": 2019,
+            "fuel_type": "diesel",
+            "body_style": "coupe",
+            "transmission": "automatic",
+            "fuel_consumption": {
+                "city": 8.5,
+                "highway": 6.0,
+                "average": 7.0
+            },
+            "mileage": 40000,
+            "engine_capacity": 2.2,
+            "car_status": "available"
+        },
+        {
+            "id": 6,
+            "photo": "./images/carsImages/audi.png",
+            "license_plate": "MNO 9876",
+            "brand": "Audi",
+            "model": "A4",
+            "vin": "WAUEFGFL4EN052392",
+            "year": 2018,
+            "fuel_type": "gasoline",
+            "body_style": "sedan",
+            "transmission": "automatic",
+            "fuel_consumption": {
+                "city": 9.0,
+                "highway": 6.5,
+                "average": 7.5
+            },
+            "mileage": 45000,
+            "engine_capacity": 2.0,
+            "car_status": "unavailable"
+        },
+        {
+            "id": 7,
+            "photo": "./images/carsImages/audi.png",
+            "license_plate": "PQR 3698",
+            "brand": "Volvo",
+            "model": "XC60",
+            "vin": "YV4952DL9E2308962",
+            "year": 2021,
+            "fuel_type": "hybrid",
+            "body_style": "SUV",
+            "transmission": "automatic",
+            "fuel_consumption": {
+                "city": 5.0,
+                "highway": 5.5,
+                "average": 5.3
+            },
+            "mileage": 20000,
+            "engine_capacity": 2.0,
+            "car_status": "unavailable"
+        },
+        {
+            "id": 8,
+            "photo": "./images/carsImages/audi.png",
+            "license_plate": "STU 2580",
+            "brand": "Honda",
+            "model": "Civic",
+            "vin": "SHHFK8G77LU205493",
+            "year": 2017,
+            "fuel_type": "gasoline",
+            "body_style": "hatchback",
+            "transmission": "manual",
+            "fuel_consumption": {
+                "city": 8.0,
+                "highway": 5.5,
+                "average": 6.5
+            },
+            "mileage": 60000,
+            "engine_capacity": 1.5,
+            "car_status": "available"
+        },
+        {
+            "id": 9,
+            "photo": "./images/carsImages/audi.png",
+            "license_plate": "VWX 7410",
+            "brand": "Hyundai",
+            "model": "Tucson",
+            "vin": "KM8J3CA49KU963248",
+            "year": 2019,
+            "fuel_type": "gasoline",
+            "body_style": "SUV",
+            "transmission": "automatic",
+            "fuel_consumption": {
+                "city": 8.5,
+                "highway": 7.0,
+                "average": 7.8
+            },
+            "mileage": 35000,
+            "engine_capacity": 2.4,
+            "car_status": "unavailable"
+        },
+        {
+            "id": 10,
+            "photo": "./images/carsImages/audi.png",
+            "license_plate": "YZA 3698",
+            "brand": "Kia",
+            "model": "Sportage",
+            "vin": "KNDPBCAC6L7783787",
+            "year": 2020,
+            "fuel_type": "diesel",
+            "body_style": "SUV",
+            "transmission": "automatic",
+            "fuel_consumption": {
+                "city": 7.0,
+                "highway": 6.0,
+                "average": 6.5
+            },
+            "mileage": 25000,
+            "engine_capacity": 2.2,
+            "car_status": "available"
+        },
+        {
+            "id": 11,
+            "photo": "./images/carsImages/audi.png",
+            "license_plate": "ABC 9876",
+            "brand": "Renault",
+            "model": "Megane",
+            "vin": "VF1BM2F0H46738100",
+            "year": 2018,
+            "fuel_type": "gasoline",
+            "body_style": "station wagon",
+            "transmission": "manual",
+            "fuel_consumption": {
+                "city": 7.5,
+                "highway": 5.5,
+                "average": 6.5
+            },
+            "mileage": 55000,
+            "engine_capacity": 1.6,
+            "car_status": "unavailable"
+        },
+        {
+            "id": 12,
+            "photo": "./images/carsImages/audi.png",
+            "license_plate": "DEF 4567",
+            "brand": "Peugeot",
+            "model": "308",
+            "vin": "VF36CRHZH37885487",
+            "year": 2019,
+            "fuel_type": "diesel",
+            "body_style": "hatchback",
+            "transmission": "manual",
+            "fuel_consumption": {
+                "city": 5.0,
+                "highway": 4.0,
+                "average": 4.5
+            },
+            "mileage": 48000,
+            "engine_capacity": 1.6,
+            "car_status": "available"
+        },
+        {
+            "id": 13,
+            "photo": "./images/carsImages/audi.png",
+            "license_plate": "GHI 9876",
+            "brand": "Fiat",
+            "model": "500",
+            "vin": "ZFA312000J1860045",
+            "year": 2020,
+            "fuel_type": "gasoline",
+            "body_style": "hatchback",
+            "transmission": "automatic",
+            "fuel_consumption": {
+                "city": 6.5,
+                "highway": 4.5,
+                "average": 5.5
+            },
+            "mileage": 30000,
+            "engine_capacity": 1.2,
+            "car_status": "available"
+        },
+        {
+            "id": 14,
+            "photo": "./images/carsImages/audi.png",
+            "license_plate": "JKL 9876",
+            "brand": "Skoda",
+            "model": "Octavia",
+            "vin": "TMBJF9NE3L2240194",
+            "year": 2019,
+            "fuel_type": "diesel",
+            "body_style": "sedan",
+            "transmission": "automatic",
+            "fuel_consumption": {
+                "city": 5.0,
+                "highway": 3.5,
+                "average": 4.0
+            },
+            "mileage": 40000,
+            "engine_capacity": 2.0,
+            "car_status": "available"
+        },
+        {
+            "id": 15,
+            "photo": "./images/carsImages/audi.png",
+            "license_plate": "MNO 1234",
+            "brand": "Mazda",
+            "model": "CX-5",
+            "vin": "JM3KE4DY3E0312355",
+            "year": 2020,
+            "fuel_type": "gasoline",
+            "body_style": "SUV",
+            "transmission": "automatic",
+            "fuel_consumption": {
+                "city": 8.0,
+                "highway": 6.0,
+                "average": 7.0
+            },
+            "mileage": 20000,
+            "engine_capacity": 2.5,
+            "car_status": "available"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "first_name": "Jan",
+            "last_name": "Kowalski",
+            "phone_number": "+48 123 456 789",
+            "id_card_number": "ABC123456",
+            "driver_license_number": "1234567890",
+            "credit_card_number": "1234 5678 9012 3456",
+            "date_of_birth": "1985-07-15",
+            "img": "../images/customers-img/cust2.png",
+            "address": {
+                "street": "Kwiatowa 5",
+                "city": "Warsaw",
+                "postal_code": "00-001",
+                "country": "Poland"
+            }
+        },
+        {
+            "id": 2,
+            "first_name": "Anna",
+            "last_name": "Nowak",
+            "phone_number": "+48 987 654 321",
+            "id_card_number": "XYZ987654",
+            "driver_license_number": "0987654321",
+            "credit_card_number": "9876 5432 1098 7654",
+            "date_of_birth": "1990-03-25",
+            "img": "../images/customers-img/cust1.jpg",
+            "address": {
+                "street": "Słoneczna 10",
+                "city": "Krakow",
+                "postal_code": "30-001",
+                "country": "Poland"
+            }
+        },
+        {
+            "id": 3,
+            "first_name": "Adam",
+            "last_name": "Wiśniewski",
+            "phone_number": "+48 111 222 333",
+            "id_card_number": "DEF654321",
+            "driver_license_number": "5678901234",
+            "credit_card_number": "1111 2222 3333 4444",
+            "date_of_birth": "1978-12-10",
+            "img": "../images/customers-img/cust2.png",
+            "address": {
+                "street": "Brzozowa 3",
+                "city": "Gdańsk",
+                "postal_code": "80-001",
+                "country": "Poland"
+            }
+        },
+        {
+            "id": 4,
+            "first_name": "Maria",
+            "last_name": "Dąbrowska",
+            "phone_number": "+48 555 666 777",
+            "id_card_number": "GHI789012",
+            "driver_license_number": "2345678901",
+            "credit_card_number": "5555 6666 7777 8888",
+            "date_of_birth": "1983-06-20",
+            "img": "../images/customers-img/cust1.jpg",
+            "address": {
+                "street": "Lipowa 7",
+                "city": "Poznań",
+                "postal_code": "60-001",
+                "country": "Poland"
+            }
+        },
+        {
+            "id": 5,
+            "first_name": "Piotr",
+            "last_name": "Kaczmarek",
+            "phone_number": "+48 333 444 555",
+            "id_card_number": "JKL345678",
+            "driver_license_number": "8901234567",
+            "credit_card_number": "3333 4444 5555 xxxx",
+            "date_of_birth": "1995-09-05",
+            "img": "../images/customers-img/cust2.png",
+            "address": {
+                "street": "Dębowa 12",
+                "city": "Łódź",
+                "postal_code": "90-001",
+                "country": "Poland"
+            }
+        },
+        {
+            "id": 6,
+            "first_name": "Ewa",
+            "last_name": "Lewandowska",
+            "phone_number": "+48 777 888 999",
+            "id_card_number": "MNO901234",
+            "driver_license_number": "3456789012",
+            "credit_card_number": "7777 8888 9999 0000",
+            "date_of_birth": "1980-11-15",
+            "img": "../images/customers-img/cust1.jpg",
+            "address": {
+                "street": "Topolowa 15",
+                "city": "Wrocław",
+                "postal_code": "50-001",
+                "country": "Poland"
+            }
+        },
+        {
+            "id": 7,
+            "first_name": "Katarzyna",
+            "last_name": "Woźniak",
+            "phone_number": "+48 222 333 444",
+            "id_card_number": "PQR567890",
+            "driver_license_number": "4567890123",
+            "credit_card_number": "2222 3333 4444 5555",
+            "date_of_birth": "1976-04-30",
+            "img": "../images/customers-img/cust1.jpg",
+            "address": {
+                "street": "Sosnowa 20",
+                "city": "Katowice",
+                "postal_code": "40-001",
+                "country": "Poland"
+            }
+        },
+        {
+            "id": 8,
+            "first_name": "Tomasz",
+            "last_name": "Jankowski",
+            "phone_number": "+48 999 888 777",
+            "id_card_number": "STU123456",
+            "driver_license_number": "5678901234",
+            "credit_card_number": "9999 8888 7777 6666",
+            "date_of_birth": "1988-08-08",
+            "img": "../images/customers-img/cust2.png",
+            "address": {
+                "street": "Klonowa 25",
+                "city": "Szczecin",
+                "postal_code": "70-001",
+                "country": "Poland"
+            }
+        }
+    ],
+    "users": [
+        {
+          "id": 1,
+          "first_name": "Anna",
+          "last_name": "Kowalska",
+          "phone_number": "+48 123 456 789",
+          "email": "anna.kowalska@ex.com",
+          "position": "Customer Service Consultant",
+          "img": "./images/users-img/usr1.jpg",
+          "address": {
+            "street": "Kwiatowa 5",
+            "city": "Warsaw",
+            "postal_code": "00-001",
+            "country": "Poland"
+          },
+          "branch_city": "Warsaw",
+          "status": "online"
+        },
+        {
+          "id": 2,
+          "first_name": "Marcin",
+          "last_name": "Nowak",
+          "phone_number": "+48 987 654 321",
+          "email": "marcin.nowak@ex.com",
+          "position": "Reservation Specialist",
+          "img": "./images/users-img/usr2.jpg",
+          "address": {
+            "street": "Słoneczna 10",
+            "city": "Krakow",
+            "postal_code": "30-001",
+            "country": "Poland"
+          },
+          "branch_city": "Krakow",
+          "status": "online"
+        },
+        {
+          "id": 3,
+          "first_name": "Jan",
+          "last_name": "Wiśniewski",
+          "phone_number": "+48 111 222 333",
+          "email": "jan.wisniewski@com",
+          "position": "Car Service Employee",
+          "img": "./images/users-img/usr3.jpg",
+          "address": {
+            "street": "Brzozowa 3",
+            "city": "Gdańsk",
+            "postal_code": "80-001",
+            "country": "Poland"
+          },
+          "branch_city": "Gdańsk",
+          "status": "online"
+        },
+        {
+          "id": 4,
+          "first_name": "Ewa",
+          "last_name": "Dąbrowska",
+          "phone_number": "+48 555 666 777",
+          "email": "ewa.dabrowska@ex.com",
+          "position": "Assistant for Administration",
+          "img": "./images/users-img/usr1.jpg",
+          "address": {
+            "street": "Lipowa 7",
+            "city": "Poznań",
+            "postal_code": "60-001",
+            "country": "Poland"
+          },
+          "branch_city": "Poznań",
+          "status": "offline"
+        },
+        {
+          "id": 5,
+          "first_name": "Krzysztof",
+          "last_name": "Kaczmarek",
+          "phone_number": "+48 333 444 555",
+          "email": "krzysztof.kaczmarek@ex.com",
+          "position": "Branch Director",
+          "img": "./images/users-img/usr1.jpg",
+          "address": {
+            "street": "Dębowa 12",
+            "city": "Łódź",
+            "postal_code": "90-001",
+            "country": "Poland"
+          },
+          "branch_city": "Łódź",
+          "status": "offline"
+        },
+        {
+          "id": 6,
+          "first_name": "Joanna",
+          "last_name": "Lewandowska",
+          "phone_number": "+48 777 888 999",
+          "email": "joanna.lewandowska@ex.com",
+          "position": "Customer Service Manager",
+          "img": "./images/users-img/usr1.jpg",
+          "address": {
+            "street": "Topolowa 15",
+            "city": "Wrocław",
+            "postal_code": "50-001",
+            "country": "Poland"
+          },
+          "branch_city": "Wrocław",
+          "status": "online"
+        },
+        {
+          "id": 7,
+          "first_name": "Adam",
+          "last_name": "Woźniak",
+          "phone_number": "+48 222 333 444",
+          "email": "adam.wozniak@ex.com",
+          "position": "Marketing Specialist",
+          "img": "./images/users-img/usr1.jpg",
+          "address": {
+            "street": "Sosnowa 20",
+            "city": "Katowice",
+            "postal_code": "40-001",
+            "country": "Poland"
+          },
+          "branch_city": "Katowice",
+          "status": "offline"
+        },
+        {
+          "id": 8,
+          "first_name": "Magdalena",
+          "last_name": "Jankowska",
+          "phone_number": "+48 999 888 777",
+          "email": "magdalena.jankowska@ex.com",
+          "position": "Customer Service Specialist",
+          "img": "./images/users-img/usr1.jpg",
+          "address": {
+            "street": "Klonowa 25",
+            "city": "Szczecin",
+            "postal_code": "70-001",
+            "country": "Poland"
+          },
+          "branch_city": "Szczecin",
+          "status": "online"
+        }
+      ],
+    "drivers":[
+        {
+            "id": 1,
+            "first_name": "Adam",
+            "last_name": "Kowalski",
+            "phone_number": "+48 123 456 789",
+            "img": "./images/drivers-img/driver1.jpg",
+            "address": {
+                "street": "Kwiatowa 5",
+                "city": "Warsaw",
+                "postal_code": "00-001",
+                "country": "Poland"
+            },
+            "driver_license_number": "ABC123456",
+            "ratings": [4, 5, 3, 4, 5],
+            "experience": "5 years",
+            "status": "available"
+        },
+        {
+            "id": 2,
+            "first_name": "Ewa",
+            "last_name": "Nowak",
+            "phone_number": "+48 987 654 321",
+            "img": "./images/drivers-img/driver2.jpg",
+            "address": {
+                "street": "Słoneczna 10",
+                "city": "Krakow",
+                "postal_code": "30-001",
+                "country": "Poland"
+            },
+            "driver_license_number": "XYZ987654",
+            "ratings": [3, 4, 3, 3, 4],
+            "experience": "3 years",
+            "status": "available"
+        },
+        {
+            "id": 3,
+            "first_name": "Jan",
+            "last_name": "Wiśniewski",
+            "phone_number": "+48 111 222 333",
+            "img": "./images/drivers-img/driver1.jpg",
+            "address": {
+                "street": "Brzozowa 3",
+                "city": "Gdańsk",
+                "postal_code": "80-001",
+                "country": "Poland"
+            },
+            "driver_license_number": "DEF654321",
+            "ratings": [5, 5, 4, 5, 4],
+            "experience": "7 years",
+            "status": "unavailable"
+        },
+        {
+            "id": 4,
+            "first_name": "Maria",
+            "last_name": "Dąbrowska",
+            "phone_number": "+48 555 666 777",
+            "img": "./images/drivers-img/driver2.jpg",
+            "address": {
+                "street": "Lipowa 7",
+                "city": "Poznań",
+                "postal_code": "60-001",
+                "country": "Poland"
+            },
+            "driver_license_number": "GHI789012",
+            "ratings": [4, 3, 4, 4, 5],
+            "experience": "4 years",
+            "status": "available"
+        },
+        {
+            "id": 5,
+            "first_name": "Piotr",
+            "last_name": "Kaczmarek",
+            "phone_number": "+48 333 444 555",
+            "img": "./images/drivers-img/driver1.jpg",
+            "address": {
+                "street": "Dębowa 12",
+                "city": "Łódź",
+                "postal_code": "90-001",
+                "country": "Poland"
+            },
+            "driver_license_number": "JKL345678",
+            "ratings": [3, 3, 2, 4, 3],
+            "experience": "2 years",
+            "status": "unavailable"
+        },
+        {
+            "id": 6,
+            "first_name": "Adam",
+            "last_name": "Kowalski",
+            "phone_number": "+48 123 456 789",
+            "img": "./images/drivers-img/driver1.jpg",
+            "address": {
+                "street": "Kwiatowa 5",
+                "city": "Warsaw",
+                "postal_code": "00-001",
+                "country": "Poland"
+            },
+            "driver_license_number": "ABC123456",
+            "ratings": [4, 5, 3, 4, 5],
+            "experience": "5 years",
+            "status": "available"
+        },
+        {
+            "id": 7,
+            "first_name": "Ewa",
+            "last_name": "Nowak",
+            "phone_number": "+48 987 654 321",
+            "img": "./images/drivers-img/driver2.jpg",
+            "address": {
+                "street": "Słoneczna 10",
+                "city": "Krakow",
+                "postal_code": "30-001",
+                "country": "Poland"
+            },
+            "driver_license_number": "XYZ987654",
+            "ratings": [3, 4, 3, 3, 4],
+            "experience": "3 years",
+            "status": "available"
+        },
+        {
+            "id": 8,
+            "first_name": "Jan",
+            "last_name": "Wiśniewski",
+            "phone_number": "+48 111 222 333",
+            "img": "./images/drivers-img/driver1.jpg",
+            "address": {
+                "street": "Brzozowa 3",
+                "city": "Gdańsk",
+                "postal_code": "80-001",
+                "country": "Poland"
+            },
+            "driver_license_number": "DEF654321",
+            "ratings": [5, 5, 4, 5, 4],
+            "experience": "7 years",
+            "status": "unavailable"
+        },
+        {
+            "id": 9,
+            "first_name": "Maria",
+            "last_name": "Dąbrowska",
+            "phone_number": "+48 555 666 777",
+            "img": "./images/drivers-img/driver2.jpg",
+            "address": {
+                "street": "Lipowa 7",
+                "city": "Poznań",
+                "postal_code": "60-001",
+                "country": "Poland"
+            },
+            "driver_license_number": "GHI789012",
+            "ratings": [4, 3, 4, 4, 5],
+            "experience": "4 years",
+            "status": "available"
+        },
+        {
+            "id": 10,
+            "first_name": "Piotr",
+            "last_name": "Kaczmarek",
+            "phone_number": "+48 333 444 555",
+            "img": "./images/drivers-img/driver1.jpg",
+            "address": {
+                "street": "Dębowa 12",
+                "city": "Łódź",
+                "postal_code": "90-001",
+                "country": "Poland"
+            },
+            "driver_license_number": "JKL345678",
+            "ratings": [3, 3, 2, 4, 3],
+            "experience": "2 years",
+            "status": "unavailable"
+        }
+    ],
+    "latestBookings": [
+        {
+            "booking_id": 1,
+            "customer_id": 1,
+            "user_id": 10,
+            "car_id": 1,
+            "driver_id": null,
+            "start_date": "2024-05-15",
+            "end_date": "2024-05-20",
+            "description": "Vacation trip",
+            "with_driver": true,
+            "price": 500,
+            "booking_status": "confirmed"
+        },
+        {
+            "booking_id": 2,
+            "customer_id": 2,
+            "user_id": 11,
+            "car_id": 3,
+            "driver_id": null,
+            "start_date": "2024-06-10",
+            "end_date": "2024-06-15",
+            "description": "City getaway",
+            "with_driver": false,
+            "price": 400,
+            "booking_status": "pending"
+        },
+        {
+            "booking_id": 3,
+            "customer_id": 1,
+            "user_id": 12,
+            "car_id": 1,
+            "driver_id": 4,
+            "start_date": "2024-07-01",
+            "end_date": "2024-07-10",
+            "description": "Business trip",
+            "with_driver": true,
+            "price": 700,
+            "booking_status": "cancelled"
+        }
+    ],
+    "bookings": [
+        {
+            "booking_id": 1,
+            "customer_id": 1,
+            "user_id": 10,
+            "car_id": 1,
+            "driver_id": null,
+            "start_date": "2024-05-15",
+            "end_date": "2024-05-20",
+            "description": "Vacation trip",
+            "with_driver": true,
+            "price": 500,
+            "booking_status": "confirmed"
+        },
+        {
+            "booking_id": 2,
+            "customer_id": 2,
+            "user_id": 11,
+            "car_id": 3,
+            "driver_id": null,
+            "start_date": "2024-06-10",
+            "end_date": "2024-06-15",
+            "description": "City getaway",
+            "with_driver": false,
+            "price": 400,
+            "booking_status": "pending"
+        },
+        {
+            "booking_id": 3,
+            "customer_id": 1,
+            "user_id": 12,
+            "car_id": 1,
+            "driver_id": 4,
+            "start_date": "2024-07-01",
+            "end_date": "2024-07-10",
+            "description": "Business trip",
+            "with_driver": true,
+            "price": 700,
+            "booking_status": "cancelled"
+        },
+        {
+            "booking_id": 4,
+            "customer_id": 4,
+            "user_id": 13,
+            "car_id": 5,
+            "driver_id": null,
+            "start_date": "2024-08-05",
+            "end_date": "2024-08-12",
+            "description": "Family vacation",
+            "with_driver": false,
+            "price": 600,
+            "booking_status": "cancelled"
+        },
+        {
+            "booking_id": 5,
+            "customer_id": 5,
+            "user_id": 14,
+            "car_id": 4,
+            "driver_id": 4,
+            "start_date": "2024-09-01",
+            "end_date": "2024-09-05",
+            "description": "Weekend getaway",
+            "with_driver": true,
+            "price": 450,
+            "booking_status": "confirmed"
+        },
+        {
+            "booking_id": 6,
+            "customer_id": 6,
+            "user_id": 15,
+            "car_id": 1,
+            "driver_id": null,
+            "start_date": "2024-10-10",
+            "end_date": "2024-10-15",
+            "description": "Business travel",
+            "with_driver": false,
+            "price": 550,
+            "booking_status": "pending"
+        },
+        {
+            "booking_id": 7,
+            "customer_id": 1,
+            "user_id": null,
+            "car_id": 7,
+            "driver_id": 4,
+            "start_date": "2024-11-20",
+            "end_date": "2024-11-25",
+            "description": "Family vacation",
+            "with_driver": true,
+            "price": 480,
+            "booking_status": "confirmed"
+        },
+        {
+            "booking_id": 8,
+            "customer_id": 8,
+            "user_id": null,
+            "car_id": 8,
+            "driver_id": null,
+            "start_date": "2024-12-01",
+            "end_date": "2024-12-10",
+            "description": "Winter trip",
+            "with_driver": false,
+            "price": 520,
+            "booking_status": "cancelled"
+        }
+    ],
+    "activity": [
+        {
+          "event_id": 1,
+          "user_id": 1,
+          "timestamp": "2024-05-10 08:30:00",
+          "activity_type": "Login",
+          "ip_address": "192.168.0.1",
+          "success": true,
+          "activity_duration": "00:02:15"
+        },
+        {
+          "event_id": 2,
+          "user_id": 2,
+          "timestamp": "2024-05-10 10:15:00",
+          "activity_type": "Reservation",
+          "ip_address": "192.168.0.5",
+          "success": true,
+          "activity_duration": "01:30:00"
+        },
+        {
+          "event_id": 3,
+          "user_id": 3,
+          "timestamp": "2024-05-10 12:45:00",
+          "activity_type": "Return",
+          "ip_address": "192.168.0.3",
+          "success": true,
+          "activity_duration": "00:45:20"
+        },
+        {
+          "event_id": 4,
+          "user_id": 1,
+          "timestamp": "2024-05-10 14:20:00",
+          "activity_type": "Update Profile",
+          "ip_address": "192.168.0.1",
+          "success": false,
+          "activity_duration": "00:05:10"
+        },
+        {
+          "event_id": 5,
+          "user_id": 1,
+          "timestamp": "2024-05-10 16:00:00",
+          "activity_type": "Logout",
+          "ip_address": "192.168.0.1",
+          "success": true,
+          "activity_duration": "00:00:30"
+        }
+      ]
+}

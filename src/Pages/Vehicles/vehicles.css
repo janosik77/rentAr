@@ -1,0 +1,318 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+
+/* left panel */
+
+.cars-items ul {
+	list-style: none;
+	height: 100%;
+	overflow-y: scroll;
+	padding: 0;
+	width: 100%;
+}
+
+.cars-items {
+	height: 100vh;
+	justify-content: center;
+}
+
+.car-item {
+	display: flex;
+	padding: 21px;
+	cursor: pointer;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+.car-item img {
+	width: 150px;
+	height: 100px;
+	border-radius: 25px;
+}
+
+.car-item-info {
+	display: flex;
+	align-items: center;
+}
+
+.car-item-text {
+	margin: 20px 0px;
+}
+
+.car-item-text h4 {
+	font-size: 20px;
+}
+
+.car-item-text p {
+	color: #d4d4f6;
+}
+
+.car-item-text p span {
+	font-weight: 600;
+}
+
+.car-status {
+	display: flex;
+	align-items: center;
+}
+
+.car-status-item {
+	/* border-radius: 4px; */
+	border-radius: 50%;
+	padding: 5px;
+	text-transform: capitalize;
+}
+
+.available,
+.unavailable {
+	padding: 10px;
+	width: 15px;
+	height: 15px;
+	/* font-weight: 600; */
+	font-size: 12px;
+}
+
+
+.btn-available {
+	border: 1px solid #00d46e;
+	color: #00d46e;
+}
+
+.btn-unavailable {
+	border: 1px solid #e3653d;
+	color: #e3653d;
+}
+
+.available {
+	background-color: #00d46e;
+	color: #00d46e;
+}
+.unavailable {
+	background-color: #e3653d;
+	color: #e3653d;
+}
+
+.cars-items li:hover {
+	background-color: #26262a;
+}
+
+.header-left button {
+	padding: 13px 15px;
+	font-size: 16px;
+}
+
+/* right panel */
+
+.car-details h1 {
+	margin-bottom: 20px;
+}
+
+.car-control-buttons {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	gap: 10px;
+}
+
+/* .car-info-details {
+    color: #c6c7f4;
+    gap: 10px;
+} */
+
+/* .car-info-details .info-item {
+	border-radius: 4px;
+	border: 1px solid #c6c7f4;
+	padding: 10px;
+} */
+
+.car-info-details .info-item p {
+	word-break: break-all;
+}
+.car-info-details h6 {
+	margin: 0px;
+	margin-top: 10px;
+	font-weight: 600;
+	font-size: 1.1rem;
+	/* color: #75d9b8; */
+	color: #c6c7f4;
+	/* color: white; */
+}
+
+.car-info-details .info-item {
+	margin: 10px 0;
+}
+
+.car-info-details .underline {
+	margin: 10px 0;
+}
+
+.car-control-buttons button {
+	border-radius: 6px;
+	height: 40px;
+	width: 100%;
+	font-weight: 600;
+	color: #fff;
+	border: none !important;
+	transition: all 0.3s ease-in-out;
+}
+
+.right-panel .car-img img {
+	/* width: 100%;
+    height: 100%; */
+	border-radius: 10%;
+	/* width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border: 1px solid #777af9; */
+}
+
+.remove-btn {
+	background-color: #c14823;
+	transition: all 0.3s;
+}
+
+.edit-btn {
+	background: #777af9;
+	transition: all 0.3s;
+}
+
+.edit-btn:hover {
+	background: #6264d4 !important;
+}
+.remove-btn:hover {
+	background: #993516 !important;
+}
+
+.custom-dialog .modal-content {
+	background-color: #343436;
+}
+
+.custom-dialog .btn-close {
+	background-color: #fff;
+}
+
+.modal-footer button {
+	border-radius: 6px;
+	background-color: transparent;
+}
+
+.modal-footer .btn-available:hover {
+	box-shadow: 0 0px 3px 0px #00d46e;
+	background-color: transparent !important;
+}
+.modal-footer .btn-unavailable:hover {
+	box-shadow: 0 0px 3px 0px #e3653d;
+	background-color: transparent !important;
+}
+
+.comfort-select .css-13cymwt-control,
+.comfort-select .css-t3ipsp-control,
+.comfort-select .css-1nmdiq5-menu {
+	background-color: #525257;
+	/* color: #fff;
+	font-weight: 400;
+	font-size: large;
+	font-family: 'Times New Roman', Times, serif; */
+}
+
+.comfort-select__menu {
+	margin-top: 0 !important;
+	top: unset !important;
+}
+
+.comfort-select__control {
+	background-color: #525257 !important;
+	color: #fff;
+	font-weight: 400;
+	font-size: large;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.comfort-select--is-focused {
+	border: 1px solid #777af9 !important;
+	background-color: #777af9 !important;
+	outline: none !important;
+}
+
+.comfort-select__control:hover,
+.comfort-select__control:focus,
+.comfort-select__control:active {
+	border: 1px solid #777af9 !important;
+	/* background-color: #777af9 !important; */
+}
+
+.comfort-select__control:focus {
+	outline: none !important;
+}
+
+.comfort-select__input-container {
+	padding: 12px;
+}
+
+.comfort-select__option {
+	/* background-color: #fff !important; */
+	transition: all 0.1s;
+}
+
+.comfort-select__option--is-focused {
+	background-color: #777af9 !important;
+}
+
+.comfort-select__multi-value {
+	background-color: #777af9 !important;
+}
+
+.comfort-select__multi-value__label {
+	color: white !important;
+}
+/* .css-10wo9uf-option:hover,
+.css-d7l1ni-option:hover {
+	background-color: #777af9;
+} */
+
+@media (min-width: 600px) {
+}
+
+.car-img {
+	display: flex;
+	width: 280px;
+}
+
+
+.car-img img {
+	/* width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 1/1; */
+    border: 1px solid #777af9;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	background-color: black;
+}
+
+.car-details-table__vin {
+	/* font-weight: 600; */
+	letter-spacing: 0.5px;
+}
+
+.comfort-select__placeholder {
+	color: white!important;
+}
+
+.comfort-select__single-value {
+	color: white!important;
+}

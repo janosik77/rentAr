@@ -1,0 +1,77 @@
+{
+
+    "data": [
+        {
+          "month": "I",
+          "2024 expenses": 4000,
+          "2023 expenses": 2400,
+          "AWT": 2400
+        },
+        {
+          "month": "II",
+          "2024 expenses": 3000,
+          "2023 expenses": 1398,
+          "AWT": 2210
+        },
+        {
+          "month": "III",
+          "2024 expenses": 2000,
+          "2023 expenses": 9800,
+          "AWT": 2290
+        },
+        {
+          "month": "IV",
+          "2024 expenses": 2780,
+          "2023 expenses": 3908,
+          "AWT": 2000
+        },
+        {
+          "month": "V",
+          "2024 expenses": 1890,
+          "2023 expenses": 4800,
+          "AWT": 2181
+        },
+        {
+          "month": "VI",
+          "2024 expenses": 2390,
+          "2023 expenses": 3800,
+          "AWT": 2500
+        },
+        {
+          "month": "VII",
+          "2024 expenses": 3490,
+          "2023 expenses": 4300,
+          "AWT": 2100
+        },
+        {
+          "month": "VIII",
+          "2024 expenses": 2400,
+          "2023 expenses": 2400,
+          "AWT": 2400
+        },
+        {
+          "month": "IX",
+          "2024 expenses": 3500,
+          "2023 expenses": 3000,
+          "AWT": 3300
+        },
+        {
+          "month": "X",
+          "2024 expenses": 3000,
+          "2023 expenses": 2000,
+          "AWT": 2500
+        },
+        {
+          "month": "XI",
+          "2024 expenses": 2700,
+          "2023 expenses": 2100,
+          "AWT": 2300
+        },
+        {
+          "month": "XII",
+          "2024 expenses": 3500,
+          "2023 expenses": 3200,
+          "AWT": 3400
+        }
+      ]
+}

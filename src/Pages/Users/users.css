@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* left panel */
+
+.users-items ul {
+    list-style: none;
+    height: 100%;
+    overflow-y: scroll;
+    padding: 0;
+}
+
+.users-items{
+    height: 100vh;
+    justify-content: center;
+}
+
+.user-item {
+    display: flex;
+    padding: 1.5rem;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.user-item img {
+    width: 150px;
+    height: 100px;
+    border-radius: 25px;
+}
+
+.user-item-info {
+    display: flex;
+    align-items: center;
+
+}
+
+.user-item-text {
+    margin: 20px 0px;
+}
+
+.user-status {
+    display: flex;
+    align-items: center;
+}
+
+.user-status-item {
+    border-radius: 50%;
+}
+
+
+.users-items li:hover  {
+    background-color: #26262a;
+}
+
+/* .header-left button {
+    padding: 13px 20px;
+    font-size: 20px;
+} */
+
+/* right panel */
+
+.user-details h1 {
+    margin-bottom: 20px;
+}
+
+.user-control-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+/* .user-info-details h6 {
+    margin: 0px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: large;
+    color: #75d9b8;
+}
+
+.user-info-details .info-item {
+    margin: 10px 0;
+}
+
+.user-info-details .underline {
+    margin: 10px 0;
+} */
+
+.user-control-buttons button {
+    border-radius: 6px;
+    height: 40px;
+    width: 100%;
+    font-weight: 600;
+    color: #fff;
+    border: none !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.right-panel .user-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
+
+.remove-user{
+    background-color: red;
+}
+
+.edit-user {
+    background: #777af9;
+}
+
+.edit-user:hover {
+    background: #5456e3 !important;
+}
+.remove-user:hover {
+    background: rgb(182, 11, 11) !important;
+}
+
+.custom-dialog .modal-content {
+    background-color: #343436;
+}
+
+.custom-dialog .btn-close {
+   background-color: #fff;
+}
+
+@media (min-width: 600px) {
+    
+}
+
+.user-item .position {
+    color: #d4d4f6;
+}
+
+.activity-table-event {
+    color: #d4d4f6;
+    font-weight: 600;
+}

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.reports .nav-link{
+    color: white !important;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.reports .nav-link:hover{
+    border: 1px solid #8f90dc;
+}
+.reports .nav-link.active{
+    background-color: #8f90dc !important;
+    border-radius: 6px;
+    border: none;
+}
+
+.btn-group button {
+    border-radius: 4px !important;
+}
+
+.comfort-select__control {
+    border: 1px solid #7d7d7d !important;
+}
