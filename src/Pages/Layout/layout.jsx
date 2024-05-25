@@ -121,14 +121,14 @@ export const Layout = () => {
 					</div>
 			</Navbar>
 			<div>
-				<Outlet />
+				<Outlet></Outlet>
 			</div>
 			<footer className='footer'>
 				<h3>Support center</h3>
 				<Row className='footer-contact justify-content-center'>
 					<Col className='footer-item'>
 						<img
-							src='.\public\images\icons\map-marker.svg'
+							src='./images/icons/map-marker.svg'
 							alt='ikona geomarkera'
 						/>
 						<h5>adress</h5>
@@ -136,14 +136,14 @@ export const Layout = () => {
 					</Col>
 					<Col className='footer-item'>
 						<img
-							src='.\public\images\icons\chat.svg'
+							src='./images/icons/chat.svg'
 							alt='ikona chmurek czatu'
 						/>
 						<h5>email</h5>
 						<p>project@wsb-nlu.com</p>
 					</Col>
 					<Col className='footer-item'>
-						<img src='.\public\images\icons\phone.svg' alt='ikona telefonu' />
+						<img src='./images/icons/phone.svg' alt='ikona telefonu' />
 						<h5>phone</h5>
 						<p>0212 123 45 67</p>
 					</Col>
