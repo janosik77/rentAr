@@ -2,7 +2,7 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Modal from 'react-bootstrap/Modal';
-import { AnimatedMulti } from './select';
+import { AnimatedMulti } from '../../Components/select';
 
 import Select from 'react-select';
 

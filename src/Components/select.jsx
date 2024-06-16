@@ -21,7 +21,6 @@ export function AnimatedMulti({placeholder}) {
 			options={options}
 			className='comfort-select'
 			classNamePrefix='comfort-select'
-			// defaultMenuIsOpen
 			placeholder={placeholder}
 		/>
 	);

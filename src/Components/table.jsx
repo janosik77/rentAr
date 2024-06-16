@@ -19,7 +19,10 @@ function Table({
 	setPagination,
 	setColumnFilters,
 }) {
-	const table = useReactTable({data,columns,state: {
+	const table = useReactTable({
+		data,
+		columns,
+		state: {
 			columnFilters,
 			pagination,
 			setColumnFilters,
