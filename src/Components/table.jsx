@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import {
 	flexRender,
 	getCoreRowModel,
@@ -9,6 +10,7 @@ import {
 
 // eslint-disable-next-line react/prop-types
 function Table({
+	// eslint-disable-next-line react/prop-types
 	data,
 	columns,
 	columnFilters,
@@ -17,10 +19,7 @@ function Table({
 	setPagination,
 	setColumnFilters,
 }) {
-	const table = useReactTable({
-		data,
-		columns,
-		state: {
+	const table = useReactTable({data,columns,state: {
 			columnFilters,
 			pagination,
 			setColumnFilters,

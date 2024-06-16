@@ -75,6 +75,30 @@ function HomeRightPanel() {
             },
         },
         {
+            header:'Description',
+            id:8,
+            accessorKey: 'description',
+            cell: ({row}) => {
+                return (
+                    <div className={`bookings-table-bookId table-description}`}>
+                        <p>{row.original.description}</p>
+                    </div>
+                );
+            }
+        },
+        {
+            header:'Price',
+            id:9,
+            accessorKey: 'price',
+            cell: ({row}) => {
+                return (
+                    <div className={`bookings-table-bookId table-price}`}>
+                        <p>${row.original.price}</p>
+                    </div>
+                );
+            }
+        },
+        {
             header: "Status",
             id: 3,
             accessorKey: "status",
@@ -93,7 +117,7 @@ function HomeRightPanel() {
             // eslint-disable-next-line no-unused-vars
             cell: ({ row }) => {
                 return (
-                    <div className="bookings-table-bookId">
+                    <div className="bookings-table-bookId text-center">
                         <Button variant="primary">Details</Button>
                     </div>
                 );

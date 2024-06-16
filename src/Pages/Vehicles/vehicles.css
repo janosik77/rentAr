@@ -34,7 +34,7 @@ body {
 
 .car-item img {
 	width: 150px;
-	height: 100px;
+	height: 84px;
 	border-radius: 25px;
 }
 
@@ -165,16 +165,17 @@ body {
 	transition: all 0.3s ease-in-out;
 }
 
+.carusel-img {
+	width: 260px;
+	height: 195px;
+	
+}
+
 .right-panel .car-img img {
-	/* width: 100%;
-    height: 100%; */
+	border: 1px solid #777af9;
+	width: 100%;
+    height: 80%; 
 	border-radius: 10%;
-	/* width: 190px;
-    height: 190px;
-    border-radius: 50%;
-    object-fit: cover;
-    aspect-ratio: 1/1;
-    border: 1px solid #777af9; */
 }
 
 .remove-btn {
@@ -290,15 +291,6 @@ body {
 }
 
 
-.car-img img {
-	/* width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    aspect-ratio: 1/1; */
-    border: 1px solid #777af9;
-}
-
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
 	background-color: black;
@@ -316,3 +308,9 @@ body {
 .comfort-select__single-value {
 	color: white!important;
 }
+
+.Carusel-item {
+	width: 260px;
+	height: 195px;
+}
+

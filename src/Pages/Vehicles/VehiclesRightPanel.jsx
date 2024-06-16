@@ -30,26 +30,32 @@ function VehiclesRightPanel() {
                                 >
                                     <Carousel>
                                         <Carousel.Item>
-                                            <img
-                                                src={data.cars[4].photo}
-                                                alt='super auto'
-                                                className='d-block'
-                                            />
+                                            <div className="carusel-img">     
+                                                <img
+                                                    src={data.cars[4].photo}
+                                                    alt='super auto'
+                                                    className='d-block'
+                                                />
+                                            </div>
                                             <Carousel.Caption></Carousel.Caption>
                                         </Carousel.Item>
                                         <Carousel.Item>
-                                            <img
-                                                src={data.cars[4].photo}
-                                                alt='super auto'
-                                                className='d-block'
-                                            />
+                                            <div className="carusel-img">
+                                                <img
+                                                    src={data.cars[4].photo}
+                                                    alt='super auto'
+                                                    className='d-block'
+                                                />
+                                            </div>
                                         </Carousel.Item>
                                         <Carousel.Item>
-                                            <img
-                                                src={data.cars[4].photo}
-                                                alt='super auto'
-                                                className='d-block'
-                                            />
+                                            <div className="carusel-img">
+                                                <img
+                                                    src={data.cars[4].photo}
+                                                    alt='super auto'
+                                                    className='d-block'
+                                                />
+                                            </div>
                                         </Carousel.Item>
                                     </Carousel>
                                 </Col>
@@ -133,7 +139,7 @@ function VehiclesRightPanel() {
                     </div>
                 </div>
                 <div className='right-panel  col-12 col-lg-12  col-xxl-10'>
-                    <h5>Up Bookings</h5>
+                    <h5>Latest Bookings</h5>
                     {/* {CarBookingHistoryTable()} */}
                     <CarBookingHistoryTable />
                 </div>

@@ -2,7 +2,7 @@
     "cars":[
         {
             "id": 1,
-            "photo": "./images/carsImages/audi.png",
+            "photo": "./images/carsImages/corolla.png",
             "license_plate": "ABC 1234",
             "brand": "Toyota",
             "model": "Corolla",
@@ -22,7 +22,7 @@
         },
         {
             "id": 2,
-            "photo": "./images/carsImages/audi.png",
+            "photo": "./images/carsImages/ford-focus-rs.png",
             "license_plate": "XYZ 5678",
             "brand": "Ford",
             "model": "Focus",
@@ -42,7 +42,7 @@
         },
         {
             "id": 3,
-            "photo": "./images/carsImages/audi.png",
+            "photo": "./images/carsImages/vw golf kombi.png",
             "license_plate": "DEF 9876",
             "brand": "Volkswagen",
             "model": "Golf",
@@ -62,7 +62,7 @@
         },
         {
             "id": 4,
-            "photo": "./images/carsImages/audi.png",
+            "photo": "./images/carsImages/bmw3.png",
             "license_plate": "GHI 2468",
             "brand": "BMW",
             "model": "3 Series",
@@ -82,7 +82,7 @@
         },
         {
             "id": 5,
-            "photo": "./images/carsImages/audi.png",
+            "photo": "./images/carsImages/merc_c.png",
             "license_plate": "JKL 1357",
             "brand": "Mercedes-Benz",
             "model": "C-Class",
@@ -102,7 +102,7 @@
         },
         {
             "id": 6,
-            "photo": "./images/carsImages/audi.png",
+            "photo": "./images/carsImages/a4.png",
             "license_plate": "MNO 9876",
             "brand": "Audi",
             "model": "A4",
@@ -122,7 +122,7 @@
         },
         {
             "id": 7,
-            "photo": "./images/carsImages/audi.png",
+            "photo": "./images/carsImages/volvo_xc90.png",
             "license_plate": "PQR 3698",
             "brand": "Volvo",
             "model": "XC60",
@@ -142,7 +142,7 @@
         },
         {
             "id": 8,
-            "photo": "./images/carsImages/audi.png",
+            "photo": "./images/carsImages/honda-civic-x.png",
             "license_plate": "STU 2580",
             "brand": "Honda",
             "model": "Civic",
@@ -162,7 +162,7 @@
         },
         {
             "id": 9,
-            "photo": "./images/carsImages/audi.png",
+            "photo": "./images/carsImages/tucson-1.png",
             "license_plate": "VWX 7410",
             "brand": "Hyundai",
             "model": "Tucson",
@@ -182,7 +182,7 @@
         },
         {
             "id": 10,
-            "photo": "./images/carsImages/audi.png",
+            "photo": "./images/carsImages/Kia-Sportage-2023.png",
             "license_plate": "YZA 3698",
             "brand": "Kia",
             "model": "Sportage",
@@ -202,7 +202,7 @@
         },
         {
             "id": 11,
-            "photo": "./images/carsImages/audi.png",
+            "photo": "./images/carsImages/renault-megane.png",
             "license_plate": "ABC 9876",
             "brand": "Renault",
             "model": "Megane",
@@ -222,7 +222,7 @@
         },
         {
             "id": 12,
-            "photo": "./images/carsImages/audi.png",
+            "photo": "./images/carsImages/peugeot-308-kombi.png",
             "license_plate": "DEF 4567",
             "brand": "Peugeot",
             "model": "308",
@@ -242,7 +242,7 @@
         },
         {
             "id": 13,
-            "photo": "./images/carsImages/audi.png",
+            "photo": "./images/carsImages/fiat.png",
             "license_plate": "GHI 9876",
             "brand": "Fiat",
             "model": "500",
@@ -262,7 +262,7 @@
         },
         {
             "id": 14,
-            "photo": "./images/carsImages/audi.png",
+            "photo": "./images/carsImages/skoda-octavia-v2.png",
             "license_plate": "JKL 9876",
             "brand": "Skoda",
             "model": "Octavia",
@@ -282,7 +282,7 @@
         },
         {
             "id": 15,
-            "photo": "./images/carsImages/audi.png",
+            "photo": "./images/carsImages/mazda cx5.png",
             "license_plate": "MNO 1234",
             "brand": "Mazda",
             "model": "CX-5",

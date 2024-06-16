@@ -110,7 +110,7 @@ export const BookingsTable = () => {
                 const reservation = bookings.find(r => row.original.booking_id === r.booking_id);
                 
                 return (
-                    <div className="bookings-table-actions">
+                    <div className="bookings-table-actions justify-content-center">
                         <Button id=''>Edit</Button><Button id='' >Details</Button><Button id='' >Remove</Button>
                     </div>
                 );
